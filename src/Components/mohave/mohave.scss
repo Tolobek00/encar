@@ -1,0 +1,103 @@
+.mohave-container {
+  margin: 0 auto;
+  width: 1440px;
+
+  .title {
+    color: rgb(0, 0, 0);
+    // font-family: Montserrat;
+    // font-size: 50px;
+    font-weight: 700;
+    line-height: 69px;
+    letter-spacing: 0%;
+    text-align: start;
+  }
+  .block-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 1200px;
+    margin: 0 auto;
+    gap: 25px;
+
+    .car {
+      background-image: url("../../assets/Mask\ group\ \(2\).png");
+      background-repeat: no-repeat;
+      background-size: cover;
+
+      h1 {
+        color: rgb(255, 255, 255);
+        font-family: Montserrat;
+        font-size: 30px;
+        font-weight: 600;
+        line-height: 37px;
+        letter-spacing: 0%;
+        text-align: left;
+      }
+      p {
+        color: rgb(255, 255, 255);
+        font-family: Montserrat;
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 26px;
+        letter-spacing: 0%;
+        text-align: left;
+      }
+      h2 {
+        color: rgb(255, 255, 255);
+        font-family: Montserrat;
+        font-size: 38px;
+        font-weight: 600;
+        line-height: 0px;
+        letter-spacing: 0%;
+        text-align: left;
+        margin-top: 105px;
+      }
+    }
+    section {
+      border-radius: 36px;
+      width: 361px;
+      height: 289px;
+      box-shadow: 0px 10px 50px 0px rgba(0, 0, 0, 0.2);
+      background: rgb(255, 255, 255);
+      padding: 20px;
+
+      h2 {
+        font-family: Montserrat;
+        font-size: 38px;
+        font-weight: 600;
+        line-height: 0px;
+        letter-spacing: 0%;
+        text-align: left;
+      }
+    }
+  }
+  .price {
+    width: 550px;
+    margin-left: 800px;
+
+    div {
+        display: flex;
+        justify-content: space-between; 
+        
+        img {
+            margin-top: 8px;
+        }
+        
+        p {
+            margin-top: 25px;
+        }
+        h1 {
+            margin-top: 25px;
+        }
+
+        .red {
+            color: rgb(250, 0, 44);
+            font-family: Montserrat;
+            font-size: 36px;
+            font-weight: 600;
+            line-height: 0px;
+            letter-spacing: 0%;
+            margin-bottom: 25px;
+        }
+    }
+  }
+}

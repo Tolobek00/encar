@@ -1,0 +1,121 @@
+div {
+    // width: 1440px;
+    margin: 0 auto;
+
+    .title {
+        color: rgb(0, 0, 0);
+        font-family: Montserrat;
+        font-size: 60px;
+        font-weight: 700;
+        line-height: 69px;
+        letter-spacing: 0%;
+        margin-left: 130px;
+    }
+  .info {
+    display: flex;
+    justify-content: space-between;
+    width: 1300px;
+    // margin: 0 auto;
+    .car_container {
+      border-radius: 36px;
+      box-shadow: 0px 2px 50px 0px rgba(0, 0, 0, 0.12);
+      background: rgb(255, 255, 255);
+      width: 371px;
+      padding: 20px;
+    //   position: relative;
+
+      .line {
+        // position: absolute;
+        color: black;
+        margin-bottom: -3px;
+        // top: 25px;
+      }
+      section {
+        img {
+          width: 100%;
+        }
+
+        .kia-k5 {
+          color: rgb(0, 0, 0);
+          font-size: 24px;
+          font-weight: 700;
+          line-height: 34px;
+          letter-spacing: 0%;
+        }
+        .text-line {
+          display: flex;
+
+          p {
+            margin: -8px 0 0 15px;
+          }
+          h4 {
+            margin: -10px 15px 0;
+          }
+
+          hr {
+            // transform: rotate(90deg);
+            min-height: 2px;
+            border: none;
+            border-bottom: 1px dashed black;
+            // border-bottom: 1px red;
+            width: 160px;
+            margin-top: 8px;
+          }
+        }
+      }
+      .price {
+        display: flex;
+        justify-content: space-between;
+
+        .white-price {
+          text-align: center;
+        }
+        .red-price {
+          background: rgb(254, 229, 233);
+          border-radius: 25px 0 0 25px;
+          text-align: center;
+        //   padding: 0 15px 0 25px;
+
+          h1 {
+            color: rgb(250, 0, 44);
+            font-size: 24px;
+            font-weight: 800;
+            line-height: 29px;
+            letter-spacing: 0%;
+          }
+          p {
+            color: rgb(43, 43, 43);
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 20px;
+            letter-spacing: 0%;
+            text-align: left;
+            margin-left: 30px;
+          }
+        }
+      }
+      .button {
+        width: 100%;
+        button {
+            border-radius: 14px;
+            background: rgb(250, 0, 44);
+            width: 80%;
+            height: 72px;
+            border: none;
+            margin: 25px 0 0 35px;
+            cursor: pointer;
+
+            color: rgb(255, 255, 255);
+            font-size: 16px;
+            font-weight: 700;
+            line-height: 20px;
+            letter-spacing: 0%;
+            text-align: center;
+        }
+        button:hover {
+            box-shadow: 0px 12px 60px 0px rgba(250, 0, 44, 0.4);
+        }
+      }
+    }
+  }
+}
