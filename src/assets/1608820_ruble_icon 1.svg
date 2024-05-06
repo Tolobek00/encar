@@ -1,0 +1,14 @@
+<svg width="36.000000" height="36.000000" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<desc>
+			Created with Pixso.
+	</desc>
+	<defs>
+		<clipPath id="clip1_1857">
+			<rect id="1608820_ruble_icon 1" width="36.000000" height="36.000000" transform="translate(-0.112305 -0.165527)" fill="white" fill-opacity="0"/>
+		</clipPath>
+	</defs>
+	<rect id="1608820_ruble_icon 1" width="36.000000" height="36.000000" transform="translate(-0.112305 -0.165527)" fill="#FFFFFF" fill-opacity="0"/>
+	<g clip-path="url(#clip1_1857)">
+		<path id="Vector 36" d="M12.38 31.33L12.38 24.83L12.38 18.33L12.38 7.33C12.38 6.22 13.28 5.33 14.38 5.33L22.88 5.33C24.38 5.33 29 6.33 28.96 11.83C28.93 16.33 25.88 18.33 22.88 18.33L12.38 18.33M6.38 18.33L12.38 18.33M12.38 24.83L6.38 24.83M12.38 24.83L23.88 24.83" stroke="#FA002C" stroke-opacity="1.000000" stroke-width="2.500000"/>
+	</g>
+</svg>
