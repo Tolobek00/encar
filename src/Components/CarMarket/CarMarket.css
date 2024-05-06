@@ -1,0 +1,370 @@
+.container {
+    width: 1440px;
+    margin: 0 auto; 
+    
+}
+
+.section{
+    background-image: url(../../img//Mask\ group.png); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 840px;
+    width: 100%;
+ }
+ .Conteiner-1{
+    width: 812px;
+    height: 595px;
+    box-sizing: border-box;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 24px;
+    background: rgba(255, 255, 255, 0.64);
+    margin-left: 230px;
+    margin-top: -700px;
+     font-family: Montserrat;
+    font-size: 30px;
+    font-weight: 100;
+    line-height: 50px;
+    letter-spacing: 0%;
+    position: absolute;
+    z-index: 5;
+ }
+ .Conteiner-1 h1 span{
+    color: red;
+ }
+ .Conteiner-1 h1{
+   /* Анализируем мировой авто-рынок */
+position: absolute;
+width: 700px;
+height: 140px;
+left: 49.68px;
+right: -23.89px;
+top: 33.11px;
+}
+.Conteiner-1 p{
+    color: rgb(0, 0, 0);
+font-family: Montserrat;
+font-size: 23px;
+font-weight: 900;
+line-height: 30px;
+letter-spacing: 0%;
+text-align: left;
+/* в сравнении в Российским и помогаем выбрать лучший вариант не только по деньгам, но и по срокам. */
+position: absolute;
+width: 615px;
+height: 60px;
+left: 6.68%;
+right: -13.42%;
+top: 30.67%;
+bottom: 29.24%;
+}
+.Conteiner-1 h3{
+    /* Опыт работы более 30 лет */
+position: absolute;
+width: 424px;
+height: 36px;
+left: 9.46%;
+right: -66.23%;
+top: 46.78%;
+bottom: -1252.78%;
+/* Shrift*/
+    color: rgb(0, 0, 0);
+font-family: Montserrat;
+font-size: 26px;
+font-weight: 600;
+line-height: 36px;
+letter-spacing: 0%;
+text-align: left;
+}
+
+.Conteiner-1 h4{
+    /* Опыт работы более 30 лет */
+position: absolute;
+width: 424px;
+height: 36px;
+left: 9.46%;
+right: -66.23%;
+top: 53.78%;
+bottom: -1252.78%;
+/* Shrift*/
+    color: rgb(0, 0, 0);
+font-family: Montserrat;
+font-size: 26px;
+font-weight: 600;
+line-height: 36px;
+letter-spacing: 0%;
+text-align: left;
+}
+.Conteiner-1 h4 span{
+    right: 50px;
+}
+ .section img{
+position: absolute;
+width: 1077px;
+height: 542px;
+left: 750px;
+right: 93px;
+top: 270px;
+bottom: 28px;
+z-index: 1;
+ }
+ .IoMdCheckmark{
+    font-size: 25px;
+    font-weight: 600;
+ }
+ .Conteiner-1 button{
+    border-radius: 8px;
+    box-shadow: 0px 7px 7px 0px rgba(0, 0, 0, 0.2);
+    background: rgb(250, 0, 44);
+    /* Rectangle 669 */
+    position: absolute;
+    width: 301px;
+    height: 80px;
+    left: 9.66%;
+    right: -101.66%;
+    top: 79%;
+    bottom: -760%;
+    border: none;
+    color: aliceblue;
+ }
+ .Conteiner-2{
+    box-sizing: border-box;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 30px;
+    background: rgba(255, 255, 255, 0.2);
+    /* Rectangle 675 */
+    position: absolute;
+    width: 479px;
+    height: 610px;
+    left: 1200px;
+    top: 145px;
+    
+    z-index: 5;
+ }
+ .Container-2-1{
+    /* Korea 671 */
+    position: absolute;
+    width: 461px;
+    height: 136px;
+    left: 11px;
+    top: 460px;
+    box-sizing: border-box;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 24px;
+    background: rgb(248, 248, 248);
+ }
+ .Container-2-2{
+    /* Rectangle 671 */
+    position: absolute;
+    width: 461px;
+    height: 136px;
+    left: 11px;
+    top: 310px;
+    box-sizing: border-box;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 24px;
+    background: rgb(248, 248, 248);
+ }
+ .Container-2-3{
+    /* Rectangle 671 */
+    position: absolute;
+    width: 461px;
+    height: 136px;
+    left: 11px;
+    top: 160px;
+    box-sizing: border-box;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 24px;
+    background: rgb(248, 248, 248);
+ }
+ .Container-2-4{
+    /* Rectangle 671 */
+    position: absolute;
+    width: 461px;
+    height: 136px;
+    left: 11px;
+    top: 10px;
+    box-sizing: border-box;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 24px;
+    background: rgb(248, 248, 248);
+ }
+ /* China */
+ .Container-2-1 img{
+    /* image 41 */
+position: absolute;
+width: 97px;
+height: 74px;
+left: 5px;
+right: -1250.32px;
+top: 31px;
+bottom: -174px;
+ }
+ .Container-2-1 h1{
+    color: rgb(0, 0, 0);
+font-family: Montserrat;
+font-size: 30px;
+font-weight: 600;
+line-height: 37px;
+letter-spacing: 0%;
+text-align: left;
+/* Китай */
+position: absolute;
+width: 97px;
+height: 37px;
+left: 140px;
+right: 416px;
+top: 3px;
+bottom: -565px;
+ }
+ .Container-2-1 p{
+    color: rgb(0, 0, 0);
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: left;
+    /* Электрокары и лучший китайский автопром */
+    position: absolute;
+    width: 245px;
+    height: 52px;
+    left: 140px;
+    right: -1364px;
+    top: 40px;
+    bottom: -627px;
+ }
+ /* Arabi */
+.Container-2-2 img{
+    
+    position: absolute;
+    width: 97px;
+    height: 74px;
+    left: 10px;
+    right: -1250.32px;
+    top: 31px;
+    bottom: -174px;
+}
+.Container-2-2 h1{
+      color: rgb(0, 0, 0);
+    font-family: Montserrat;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 37px;
+    letter-spacing: 0%;
+    text-align: left;
+    /* Китай */
+    position: absolute;
+    width: 97px;
+    height: 37px;
+    left: 140px;
+    right: 416px;
+    top: 3px;
+    bottom: -565px;
+}
+.Container-2-2 p{
+    color: rgb(0, 0, 0);
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: left;
+    /* Уникальные авто */
+    position: absolute;
+    width: 245px;
+    height: 52px;
+    left: 140px;
+    right: -1364px;
+    top: 46px;
+    bottom: -627px;
+}
+/* Kazakstan */
+.Container-2-3 img{
+    
+    position: absolute;
+    width: 97px;
+    height: 74px;
+    left: 10px;
+    right: -1250.32px;
+    top: 31px;
+    bottom: -174px;
+}
+.Container-2-3 h1{
+      color: rgb(0, 0, 0);
+    font-family: Montserrat;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 37px;
+    letter-spacing: 0%;
+    text-align: left;
+    /* Китай */
+    position: absolute;
+    width: 97px;
+    height: 37px;
+    left: 140px;
+    right: 416px;
+    top: 3px;
+    bottom: -565px;
+}
+.Container-2-3 p{
+    color: rgb(0, 0, 0);
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: left;
+    /* Уникальные авто */
+    position: absolute;
+    width: 245px;
+    height: 52px;
+    left: 140px;
+    right: -1364px;
+    top: 46px;
+    bottom: -627px;
+}
+/* Korea */
+.Container-2-4 img{
+    
+    position: absolute;
+    width: 97px;
+    height: 74px;
+    left: 10px;
+    right: -1250.32px;
+    top: 31px;
+    bottom: -174px;
+}
+.Container-2-4 h1{
+      color: rgb(0, 0, 0);
+    font-family: Montserrat;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 37px;
+    letter-spacing: 0%;
+    text-align: left;
+    /* Китай */
+    position: absolute;
+    width: 97px;
+    height: 37px;
+    left: 140px;
+    right: 416px;
+    top: 3px;
+    bottom: -565px;
+}
+.Container-2-4 p{
+    color: rgb(0, 0, 0);
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: left;
+    /* Уникальные авто */
+    position: absolute;
+    width: 245px;
+    height: 52px;
+    left: 140px;
+    right: -1364px;
+    top: 46px;
+    bottom: -627px;
+}

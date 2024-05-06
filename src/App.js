@@ -1,7 +1,4 @@
-// import HomePages from "./Pages/HomePages";
-// import Layout from "./сomponents/Layout/Layout";
-// import Process from "./сomponents/Process/Process";
-// // =======
+import NotFound from "./Pages/NotFound";
 import "./App.css";
 import KoreaCar from "./Components/Korea-car/KoreaCar";
 import Layout from "./Components/Layout/Layout";
@@ -10,6 +7,8 @@ import { Route, Routes } from "react-router-dom";
 import Mohave from "./Components/mohave/Mohave";
 import Mapp from "./Components/map/Mapp";
 import Help from "./Components/Help-for-buy/Help";
+import CarMarket from "./Components/CarMarket/CarMarket"
+
 
 function App() {
   return (
@@ -21,6 +20,8 @@ function App() {
           <Route path="/map" element={<Mapp />} />
           <Route path="/mohave" element={<Mohave />} />
           <Route path="/help" element={<Help />} />
+          <Route path="*" element={<NotFound/>}/>
+          <Route path="/carMarcet" element={<CarMarket/>}/>
         </Route>
       </Routes>
     </div>
