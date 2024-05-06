@@ -9,7 +9,7 @@ function Header() {
       <div className="menu">
         <img src={logo} alt="" />
         <ul>
-          <li>Авто из Кореии</li>
+          <li>Авто из Кореи</li>
           <li>Авто из Казахстана</li>
           <li>Авто из ОАЭ</li>
           <li>Авто из Китая</li>

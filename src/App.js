@@ -8,6 +8,7 @@ import Mohave from "./Components/mohave/Mohave";
 import Mapp from "./Components/map/Mapp";
 import Help from "./Components/Help-for-buy/Help";
 import CarMarket from "./Components/CarMarket/CarMarket"
+import Contacts from "./Components/Contacts/Contacts";
 
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
           <Route path="/help" element={<Help />} />
           <Route path="*" element={<NotFound/>}/>
           <Route path="/carMarcet" element={<CarMarket/>}/>
+          <Route path="/contacts" element={<Contacts/>}/>
         </Route>
       </Routes>
     </div>

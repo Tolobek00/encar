@@ -6,16 +6,20 @@ import Mohave from '../mohave/Mohave'
 import Mapp from '../map/Mapp'
 import Process from '../Process/Process'
 import CarMarket from "../CarMarket/CarMarket"
+import AutoKarea from "../AutoKorea/AutoKarea"
+import Contact from "../Contact/Contact"
 
 function Home() {
   return (
     <div>
-      <Help/>
-      <KoreaCar/>
-      <Mapp/>
-      <Mohave/>
-      <Process/>
       <CarMarket/>
+      {/* <Help/> */}
+      {/* <KoreaCar/> */}
+      {/* <Mapp/> */}
+      {/* <Mohave/> */}
+      {/* <Process/> */}
+      <Contact/>
+      {/* <AutoKarea/> */}
       
     </div>
   )
