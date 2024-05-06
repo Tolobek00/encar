@@ -1,118 +1,118 @@
-.help-container {
-  display: flex;
-  justify-content: space-between;
+.divka {
   width: 1440px;
   margin: 0 auto;
-  position: relative;
-  z-index: 99;
-  padding-top: 40px;
-
-  .image-container {
-    // position: absolute;
-    border-radius: 22px;
-    box-shadow: 0px 2px 50px 0px rgba(35, 37, 38, 0.07);
-    background: rgb(255, 255, 255);
-    width: 400px;
-    height: 420px;
+  .help-container {
     display: flex;
-    flex-direction: column;
-    // align-items: center;
-    // justify-content: center;
-    padding: 5px 30px 50px 50px;
-    gap: 5px;
-    // z-index: 9;
+    justify-content: space-between;
+    width: 1200px;
+    margin: 0 auto;
+    position: relative;
+    z-index: 99;
+    padding: 40px;
 
-    h1 {
-      color: rgb(0, 0, 0);
-      // font-family: Montserrat;
-      font-size: 40px;
-      font-weight: 700;
-      line-height: 69px;
-      letter-spacing: 0%;
-    }
-    p {
-      color: rgb(0, 0, 0);
-      // font-family: Montserrat;
-      font-size: 16px;
-      font-weight: 500;
-      line-height: 26px;
-      letter-spacing: 0%;
-    }
-    input {
-      position: absolute;
-      z-index: 999;
-      bottom: 360px;
-      width: 30%;
-      height: 46px;
-      box-sizing: border-box;
-      border: 1px solid rgb(201, 201, 201);
-      border-radius: 14px;
+    .image-container {
+      border-radius: 22px;
+      box-shadow: 0px 2px 50px 0px rgba(35, 37, 38, 0.07);
       background: rgb(255, 255, 255);
-    }
-    .vector {
-      position: absolute;
-      z-index: 6;
-      right: 775px;
-      top: 380px;
-      // margin-bottom: -8px;
-      // margin-left: 25px;
-      width: 60px;
-    }
-    button {
-      position: absolute;
-      z-index: 5;
-      bottom: 300px;
-      right: 855px;
-      width: 20%;
-      height: 45px;
-      border-radius: 14px;
-      border: none;
-      background: rgb(250, 0, 44);
-      color: rgb(255, 255, 255);
-      font-size: 16px;
-      font-weight: 700;
-      line-height: 20px;
-      letter-spacing: 0%;
-    }
-    button:hover {
-      transform: scale(1.03);
-      box-shadow: 0px 12px 60px 0px rgba(250, 0, 44, 0.4);
-      cursor: pointer;
-    }
-    .audi {
-      position: absolute;
-      z-index: 2;
-      bottom: -160px;
-      right: -185px;
-    }
-    .mask {
-      width: 900px;
-      position: absolute;
-      z-index: 1;
-      bottom: -156px;
-      left: -94px;
-    }
-  }
-  .texts-container {
-    display: flex;
-    justify-content: flex-start;
-    width: 500px;
+      width: 420px;
+      height: 450px;
+      display: flex;
+      flex-direction: column;
+      padding: 5px 30px 50px 50px;
+      // gap: 5px;
 
-    .icons {
-      section {
-        width: 250px;
-        margin-bottom: 55px;
+      h1 {
+        color: rgb(0, 0, 0);
+        // font-family: Montserrat;
+        font-size: 45px;
+        font-weight: 700;
+        line-height: 69px;
+        letter-spacing: 0%;
+      }
+      p {
+        color: rgb(0, 0, 0);
+        // font-family: Montserrat;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 26px;
+        letter-spacing: 0%;
+      }
+      input {
+        position: absolute;
+        z-index: 999;
+        bottom: 360px;
+        width: 30%;
+        height: 46px;
+        box-sizing: border-box;
+        border: 1px solid rgb(201, 201, 201);
+        border-radius: 14px;
+        background: rgb(255, 255, 255);
+      }
+      .vector {
+        position: absolute;
+        z-index: 6;
+        right: 845px;
+        top: 420px;
+        // margin-bottom: -8px;
+        // margin-left: 25px;
+        width: 60px;
+      }
+      button {
+        position: absolute;
+        z-index: 5;
+        bottom: 295px;
+        right: 926px;
+        width: 20%;
+        height: 45px;
+        border-radius: 14px;
+        border: none;
+        background: rgb(250, 0, 44);
+        color: rgb(255, 255, 255);
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 20px;
+        letter-spacing: 0%;
+      }
+      button:hover {
+        transform: scale(1.03);
+        box-shadow: 0px 12px 60px 0px rgba(250, 0, 44, 0.4);
+        cursor: pointer;
+      }
+      .audi {
+        position: absolute;
+        z-index: 2;
+        bottom: -50px;
+        right: 629px;
+      }
+      .mask {
+        width: 900px;
+        position: absolute;
+        z-index: 1;
+        bottom: -156px;
+        left: -94px;
+      }
+    }
+    .texts-container {
+      display: flex;
+      justify-content: flex-start;
+      width: 500px;
 
-        .icons-border {
-          box-sizing: border-box;
-          border: 3px solid rgba(250, 0, 44, 0.15);
-          border-radius: 10px;
-          width: 60px;
-          height: 60px;
-          display: flex;
-          justify-content: center;
-          align-items: center;
-          margin-left: 0;
+      .icons {
+        section {
+          width: 250px;
+          margin-bottom: 55px;
+
+          .icons-border {
+            box-sizing: border-box;
+            border: 3px solid rgba(250, 0, 44, 0.15);
+            border-radius: 10px;
+            width: 60px;
+            height: 60px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-left: 0;
+          }
         }
       }
     }
