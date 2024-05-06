@@ -1,0 +1,83 @@
+.section-container {
+   width: 1440px;
+   margin: 0 auto; 
+
+}
+
+.Section-About{
+    background-image: url(../../img/About-Sect.png); 
+    background-size: cover;
+    height: 840px;
+    width:100%;
+   background-position: center;
+   background-repeat: no-repeat;
+   object-fit: cover;
+ }
+ .Ocom h1{
+    color: rgb(255, 255, 255);
+    font-family: Montserrat;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 69px;
+    letter-spacing: 0%;
+    text-align: left;
+    /* О компании */
+    position: absolute;
+    width: 852px;
+    height: 69px;
+    left: 234px;
+    right: 834px;
+    top: 190px;
+    bottom: 2547px;
+ }
+ .Ocom h2{
+    color: rgb(255, 255, 255);
+    font-family: Montserrat;
+    font-size: 35px;
+    font-weight: 500;
+    line-height: 43px;
+    letter-spacing: 0%;
+    text-align: left;
+    /* EncarRUS Российская динамично развивающаяся компания */
+    position: absolute;
+    width: 854px;
+    height: 86px;
+    left: 234px;
+    right: 832px;
+    top: 289px;
+    bottom: 2431px;
+ }
+ .Ocom p{
+    color: rgb(255, 255, 255);
+    font-family: Montserrat;
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: left;
+    position: absolute;
+    width: 787px;
+    height: 300px;
+    left: 234px;
+    right: 899px;
+    top: 408px;
+    bottom: 2098px;
+ }
+ .Glav{
+    color: rgb(255, 255, 255);
+font-family: Montserrat;
+font-size: 20px;
+font-weight: 500;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: left;
+opacity: 0.5;
+/* Главная → Контакты */
+position: absolute;
+width: 206px;
+height: 24px;
+left: 234px;
+right: 1480px;
+top: 128px;
+bottom: 2654px;
+ }
