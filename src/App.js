@@ -1,6 +1,6 @@
+import NotFound from "./Pages/NotFound";
+=======
 import HomePages from "./Pages/HomePages";
-import Layout from "./сomponents/Layout/Layout";
-import Process from "./сomponents/Process/Process";
 =======
 import "./App.css";
 import KoreaCar from "./Components/Korea-car/KoreaCar";
@@ -15,6 +15,11 @@ function App() {
   return (
     <div className="App">
       <Routes>
+        <Route path="/" element={<Layout />}>
+          <Route index element={<Home />} />
+          <Route path="*" element={<NotFound />} />
+        </Route>
+// =======
           <Route index element={<HomePage />}></Route>
           <Route path="/korea" element={<KoreaCar />} />
           <Route path="/map" element={<Mapp/>}/>
