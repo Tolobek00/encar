@@ -5,7 +5,7 @@ import car from "../../assets/Group 2827 (1).png";
 
 function KoreaCar() {
   return (
-    <div>
+    <div className="container">
         <h1 className="title">Популярные а/м из Кореи</h1>
       <div className="info">
         <div className="car_container">

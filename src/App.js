@@ -5,6 +5,7 @@ import HomePage from "./Pages/HomePage";
 import { Route, Routes } from "react-router-dom";
 import Mohave from "./Components/mohave/Mohave";
 import Mapp from "./Components/map/Mapp";
+import Help from "./Components/Help-for-buy/Help";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
           <Route path="/korea" element={<KoreaCar />} />
           <Route path="/map" element={<Mapp/>}/>
           <Route path="/mohave" element={<Mohave/>}/>
+          <Route path="/help" element={<Help/>}/>
           
         </Route>
       </Routes>

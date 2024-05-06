@@ -46,7 +46,7 @@ function Mohave() {
           <h2 style={{marginTop: '130px'}}>80 тыс руб</h2>
         </section>
       </div>
-      <hr />
+      <hr style={{width: '1200px'}}/>
       <div className="price">
         <div><img src={line} alt="" /><p>Итоговая стоимость а/м под ключ</p><h1 className="red">3 280 000 руб</h1></div>
         <div><img src={line} alt="" /><p>Стоимость аналогичного а/м в РФ</p><h1>4 900 000 руб</h1></div>

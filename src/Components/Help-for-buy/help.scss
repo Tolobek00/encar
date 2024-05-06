@@ -7,6 +7,7 @@
     margin: 100px auto;
     position: relative;
     z-index: 99;
+    padding-top: 40px;
 
 
     .image-container {
@@ -14,8 +15,8 @@
         border-radius: 22px;
         box-shadow: 0px 2px 50px 0px rgba(35, 37, 38, 0.07);
         background: rgb(255, 255, 255);
-        width: 420px;
-        height: 450px;
+        width: 400px;
+        height: 420px;
         display: flex;
         flex-direction: column;
         // align-items: center;
@@ -54,8 +55,8 @@
         .vector {
             position: absolute;
             z-index: 6;
-            right: 815px;
-            top: 340px;
+            right: 775px;
+            top: 380px;
             // margin-bottom: -8px;
             // margin-left: 25px;
             width: 60px;
@@ -64,7 +65,7 @@
             position: absolute;
             z-index: 5;
             bottom: 300px;
-            right: 885px;
+            right: 855px;
             width: 20%;
             height: 45px;
             border-radius: 14px;
@@ -82,11 +83,11 @@
             cursor: pointer;
         }
         .audi {
-            width: 1760px;
+            width: 1800px;
             position: absolute;
             z-index: 2;
-            bottom: -176px;
-            right: -154px;
+            bottom: -160px;
+            right: -185px;
         }
         .mask {
             width: 900px;
@@ -98,12 +99,14 @@
     }
     .texts-container {
         display: flex;
+        justify-content: flex-start;
+        width: 500px;
         
 
         .icons {
             
             section {
-                width: 300px;
+                width: 250px;
                 margin-bottom: 55px;
                 
 
@@ -116,6 +119,7 @@
                     display: flex;
                     justify-content: center;
                     align-items: center;
+                    margin-left: 0;
                 }
             }
         }
