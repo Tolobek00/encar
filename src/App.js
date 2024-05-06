@@ -8,7 +8,9 @@ import Mohave from "./Components/mohave/Mohave";
 import Mapp from "./Components/map/Mapp";
 import Help from "./Components/Help-for-buy/Help";
 import CarMarket from "./Components/CarMarket/CarMarket"
-import Contacts from "./Components/Contacts/Contacts";
+// import Contacts from "./Components/Contacts/Contacts";
+// import Korea from "./Components/Korea/Korea";
+// import AboutUs from "./Components/AboutUS/AboutUs";
 
 
 function App() {
@@ -23,7 +25,9 @@ function App() {
           <Route path="/help" element={<Help />} />
           <Route path="*" element={<NotFound/>}/>
           <Route path="/carMarcet" element={<CarMarket/>}/>
-          <Route path="/contacts" element={<Contacts/>}/>
+          {/* <Route path="/contacts" element={<Contacts/>}/> */}
+          {/* <Route path="/korea-title" element={<Korea/>}/> */}
+          {/* <Route path="/about-us" element={<AboutUs/>}/> */}
         </Route>
       </Routes>
     </div>

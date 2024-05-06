@@ -5,7 +5,7 @@ import icon from "../../assets/svg/phoneicon.svg";
 
 function Header() {
   return (
-    <header className="header">
+    <Header className="header">
       <div className="menu">
         <img src={logo} alt="" />
         <ul>
@@ -19,12 +19,15 @@ function Header() {
       </div>
 
       <div className="auth">
-      <button className='number'>
-        <span className='icon' style={{ backgroundImage: `url(${icon})` }}></span>
-        +7(800)011-11-11
-      </button>
+        <button className="number">
+          <span
+            className="icon"
+            style={{ backgroundImage: `url(${icon})` }}
+          ></span>
+          +7(800)011-11-11
+        </button>
       </div>
-    </header>
+    </Header>
   );
 }
 

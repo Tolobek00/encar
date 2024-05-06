@@ -1,6 +1,5 @@
 import React from "react";
 import "./CarMarket.scss";
-import "./CarMarket.css";
 import Car from "../../img/Car-Section.png";
 import { IoMdCheckmark } from "react-icons/io";
 import Korea from "../../img/Korea.png";
