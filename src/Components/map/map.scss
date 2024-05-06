@@ -1,32 +1,40 @@
-.map {
-  display: flex;
-  justify-content: space-around;
-  width: 1200px;
-  margin: 0 auto;
+.container {
+  width: 1440px;
+  // margin: 0 auto;
+  padding: 100px;
 
-  .map-container {
-    box-sizing: border-box;
-    border: 7px solid rgba(250, 0, 44, 0.2);
-    border-radius: 36px;
-    height: 460px;
-    background: rgb(255, 255, 255);
-    padding: 15px;
+  .map {
+    display: flex;
+    justify-content: space-around;
+    width: 1250px;
+    margin: 0 auto;
 
-    section {
+
+    .map-container {
+      box-sizing: border-box;
+      border: 7px solid rgba(250, 0, 44, 0.2);
+      border-radius: 36px;
+      height: 460px;
+      background: rgb(255, 255, 255);
+      padding: 15px;
+
+      section {
         display: flex;
         justify-content: space-around;
-    }
-    p {
+      }
+      p {
         margin-top: -5px;
         margin-left: 20px;
 
         img {
-            margin-bottom: -3px;
+          margin-bottom: -3px;
         }
-    }
+      }
 
-    #map1, #map2 {
+      #map1,
+      #map2 {
         border-radius: 36px;
+      }
     }
   }
 }

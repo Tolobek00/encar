@@ -4,7 +4,6 @@ import "leaflet/dist/leaflet.css";
 import "./map.scss";
 import vector from "../../assets/Vector.svg";
 
-
 function Mapp() {
   useEffect(() => {
     const map1 = L.map("map1").setView([51.505, -0.09], 11);
@@ -26,29 +25,31 @@ function Mapp() {
   }, []);
 
   return (
-    <div className="map">
-      <div className="map-container">
-        <div id="map1" style={{ height: "300px", width: "500px" }}></div>
+    <div className="container">
+      <div className="map">
+        <div className="map-container">
+          <div id="map1" style={{ height: "300px", width: "500px" }}></div>
 
-        <section>
-          <h1>Филиал Москва</h1>
-          <h1>+7 (800) 011-11-11</h1>
-        </section>
-        <p>
-          <img src={vector} alt="" />
-          +7 (800) 011-11-11
-        </p>
-      </div>
-      <div className="map-container">
-        <div id="map2" style={{ height: "300px", width: "500px" }}></div>
-        <section>
-          <h1>Филиал Самара</h1>
-          <h1>+7 (800) 011-11-11</h1>
-        </section>
-        <p>
-          <img src={vector} alt="" />
-          +7 (800) 011-11-11
-        </p>
+          <section>
+            <h1>Филиал Москва</h1>
+            <h1>+7 (800) 011-11-11</h1>
+          </section>
+          <p>
+            <img src={vector} alt="" />
+            +7 (800) 011-11-11
+          </p>
+        </div>
+        <div className="map-container">
+          <div id="map2" style={{ height: "300px", width: "500px" }}></div>
+          <section>
+            <h1>Филиал Самара</h1>
+            <h1>+7 (800) 011-11-11</h1>
+          </section>
+          <p>
+            <img src={vector} alt="" />
+            +7 (800) 011-11-11
+          </p>
+        </div>
       </div>
     </div>
   );
