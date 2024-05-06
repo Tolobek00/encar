@@ -2,7 +2,7 @@
 .help-container {
     display: flex;
     justify-content: space-between;
-    width: 1200px;
+    width: 1440px;
     // height: 500px;
     margin: 100px auto;
     position: relative;
@@ -83,7 +83,7 @@
             cursor: pointer;
         }
         .audi {
-            width: 1800px;
+            // width: 1800px;
             position: absolute;
             z-index: 2;
             bottom: -160px;
