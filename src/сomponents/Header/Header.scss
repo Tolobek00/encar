@@ -1,0 +1,71 @@
+.header {
+    width: 1300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    height: 69px;
+
+    .menu {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 537px;
+    }
+
+    img {
+        width: 263px;
+        height: 69px;
+    }
+
+    ul {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        list-style: none;
+        width: 875px;
+
+        li {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: flex-start;
+            padding: 0px;
+            width: 875px;
+            height: 20px;
+        }
+    }
+
+    .auth {
+        width: 236px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .icon {
+            display: inline-block;
+            width: 20px; 
+            height: 20px; 
+            margin-right: 10px;
+            background-size: cover;
+            background-repeat: no-repeat; 
+            background-position: center;
+            gap: 5px;
+            margin-bottom: -5px;
+          }
+          
+
+        .number {
+            width: 236px;
+            height: 58px;
+            border-radius: 8px;
+            background: rgb(250, 0, 44);
+            color: rgb(255, 255, 255);
+            border: none;
+            cursor: pointer;
+            font-weight: bold;
+        }
+
+        
+    }
+}
