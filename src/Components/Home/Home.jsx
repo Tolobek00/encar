@@ -4,6 +4,7 @@ import Help from '../Help-for-buy/Help'
 import KoreaCar from '../Korea-car/KoreaCar'
 import Mohave from '../mohave/Mohave'
 import Mapp from '../map/Mapp'
+import Process from '../Process/Process'
 
 function Home() {
   return (
@@ -12,6 +13,7 @@ function Home() {
       <KoreaCar/>
       <Mapp/>
       <Mohave/>
+      <Process/>
     </div>
   )
 }

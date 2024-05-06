@@ -1,14 +1,14 @@
 import React from "react";
 import "./Process.scss";
-import one from "../assets/svg/1.svg";
-import two from "../assets/svg/2.svg";
-import three from "../assets/svg/3.svg";
-import four from "../assets/svg/4.svg";
-import five from "../assets/svg/5.svg";
-import six from "../assets/svg/6.svg";
-import seven from "../assets/svg/7.svg";
-import eigth from "../assets/svg/8.svg";
-import vectore from "../assets/svg/Vector 16.svg";
+import one from "../../assets/svg/1.svg";
+import two from "../../assets/svg/2.svg";
+import three from "../../assets/svg/3.svg";
+import four from "../../assets/svg/4.svg";
+import five from "../../assets/svg/5.svg";
+import six from "../../assets/svg/6.svg";
+import seven from "../../assets/svg/7.svg";
+import eigth from "../../assets/svg/8.svg";
+import vectore from "../../assets/svg/Vector 16.svg";
 
 function Process() {
   return (
