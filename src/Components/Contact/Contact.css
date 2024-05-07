@@ -24,6 +24,7 @@
     letter-spacing: 0%;
     text-align: left;
     opacity: 0.5;
+    cursor: pointer;
     /* Главная → Контакты */
     /* position: absolute; */
     width: 185px;

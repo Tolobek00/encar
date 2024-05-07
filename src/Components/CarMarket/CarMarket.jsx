@@ -8,61 +8,45 @@ import Arabi from "../../img/Arabi.png";
 import Kazakstan from "../../img/Kazakstan.png";
 function CarMarket() {
   return (
-    <div className="container">
-      <div className="section">
-        <img src={Car} alt="" />
+      <div className="item-contaier">
+        <div className="texts">
+          <h1>Анализируем <br /> мировой <span>авто-рынок </span></h1>
+          <p>в сравнении в Российским и помогаем выбрать лучший<br /> вариант не только по деньгам, но и по срокам.</p>
+          <h4><IoMdCheckmark/> Опыт работы более 30 лет</h4>
+          <h4> <IoMdCheckmark />Помощь с выбором авто и страны покупки</h4>
+          <button>Получить консультацию</button>
+        </div>
+        <div className="blocks">
+          <div>
+            <section><img src={Korea} alt="" /></section>
+            <section>
+              <h1>Южная Корея</h1>
+              <p>Лучшие европейские авто с жирными комплектациями</p>
+            </section>
+          </div>
+          <div>
+            <section><img src={Kazakstan} alt="" /></section>
+            <section>
+              <h1>Казахстан</h1>
+              <p>Только новые авто без пробега</p>
+            </section>
+          </div>
+          <div>
+            <section><img src={Arabi} alt="" /></section>
+            <section>
+              <h1>Арабские Эмираты</h1>
+              <p>Уникальные авто</p>
+            </section>
+          </div>
+          <div>
+            <section><img src={China} alt="" /></section>
+            <section>
+              <h1>Китай</h1>
+              <p>Электрокары и лучший китайский автопром</p>
+            </section>
+          </div>
+        </div>
       </div>
-      <div className="Conteiner-1">
-        <h1>
-          Анализируем <br /> мировой <span>авто-рынок</span>{" "}
-        </h1>
-        <p>
-          в сравнении в Российским и помогаем выбрать лучший <br /> вариант не
-          только по деньгам, но и по срокам.
-        </p>
-        <h3>
-          <IoMdCheckmark className="IoMdCheckmark" /> Опыт работы более 30 лет
-        </h3>
-        <h4>
-          <IoMdCheckmark className="IoMdCheckmark" /> Помощь с выбором авто и{" "}
-          <br /> <span> страны покупки</span>
-        </h4>
-        <button>Получить консультацию</button>
-      </div>
-      {/* Container 2 */}
-      <div className="Conteiner-2">
-        {/* 1 Китай */}
-        <div className="Container-2-1">
-          <img src={China} alt="" />
-          <h1>Китай</h1>
-          <p>
-            Электрокары и лучший <br /> китайский автопром
-          </p>
-        </div>
-
-        {/* 2 Арабские Эмираты */}
-        <div className="Container-2-2">
-          <img src={Arabi} alt="" />
-          <h1>Арабские</h1>
-          <p>Уникальные авто</p>
-        </div>
-
-        {/* 3 Казахстан */}
-        <div className="Container-2-3">
-          <img src={Kazakstan} alt="" />
-          <h1>Казахстан</h1>
-          <p>Только новые авто без пробега</p>
-        </div>
-
-        {/* 4 Южная Корея */}
-        <div className="Container-2-4">
-          <img src={Korea} alt="" />
-          <h1>Корея</h1>
-          <p>Лучшие европейские авто с жирными комплектациями</p>
-        </div>
-        {/* end*/}
-      </div>
-    </div>
   );
 }
 

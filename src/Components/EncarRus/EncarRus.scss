@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+.sectoin {
+  width: 1440px;
+  margin: 100px auto;
+
+  .title {
+    .img-content {
+      img {
+        width: 1280px;
+        height: 500px;
+      }
+    }
+    .img-post {
+      width: 832px;
+      height: 420px;
+      margin: -310px 90px 0 576px;
+    }
+    .rus {
+      color: red;
+    }
+    h1 {
+      margin-left: 50px;
+      font-family: Montserrat;
+      font-size: 50px;
+      font-weight: 700;
+      line-height: 69px;
+      letter-spacing: 0%;
+      text-align: left;
+    }
+    p {
+      margin-left: 50px;
+    }
+
+    button {
+      width: 301px;
+      height: 72px;
+      border-radius: 14px;
+      background: rgb(250, 0, 44);
+      border: none;
+      color: rgb(255, 255, 255);
+      font-family: Montserrat;
+      font-size: 16px;
+      font-weight: 700;
+      line-height: 20px;
+      letter-spacing: 0%;
+      text-align: center;
+      margin-top: 20px;
+      margin-left: 50px;
+    }
+
+    button:hover {
+      transform: scale(1.03);
+      box-shadow: 0px 12px 60px 0px rgba(250, 0, 44, 0.4);
+      cursor: pointer;
+    }
+  }
+}

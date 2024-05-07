@@ -1,0 +1,90 @@
+.videoMaker {
+    // background-image: url("../../img//Mask\ group.png"); 
+    background-image: url("../../assets/Group\ 2923.png");
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 1440px;
+    height: 600px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    // position: relative;
+
+    .Conteiner-01 {
+        box-sizing: border-box;
+        border: 1px solid rgb(255, 255, 255);
+        border-radius: 24px;
+        background: rgba(255, 255, 255, 0.64);
+        width: 569px;
+        height: 465px;
+        padding: 20px;
+
+        h1 {
+            color: rgb(40, 40, 40);
+            font-family: Montserrat;
+            font-size: 50px;
+            font-weight: 800;
+            line-height: 90px;
+            letter-spacing: 0%;
+            text-align: left;
+            text-transform: uppercase;
+        }
+        button {
+            border-radius: 8px;
+            background: rgb(250, 0, 44);
+            width: 300px;
+            height: 50px;
+            border: none;
+            color: rgb(255, 255, 255);
+            font-family: Poppins;
+            font-size: 18px;
+            font-weight: 700;
+            line-height: 26px;
+            letter-spacing: 0%;
+            text-align: center;
+        }
+    }
+    .Container-02 {
+        box-sizing: border-box;
+        border: 1px solid rgb(255, 255, 255);
+        border-radius: 24px;
+        background: rgba(0, 0, 0, 0.3);
+        width: 165px;
+        height: 250px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        color: black;
+        // margin-left: -186px;
+
+        a{ 
+            color: white;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration-line: underline;
+        }
+
+        .Play-Video {
+            border: 2px white dashed;
+            border-radius: 50%;
+            width: 50px;
+            height: 50px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-left: 50px;
+        }
+    }
+    .message {
+        display: flex;
+        justify-content: space-around;
+            .App-TY {
+                margin-top: -20px;
+            }
+    }
+
+}

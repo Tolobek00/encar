@@ -1,10 +1,11 @@
 import React from "react";
+import "./Header.jsx";
 import { Link, useNavigate } from "react-router-dom";
-import "./Header.scss";
 import logo from "../../assets/svg/logo.svg";
 import icon from "../../assets/svg/phoneicon.svg";
 
-function Header() {
+
+function HeaderUs() {
   const navigate = useNavigate();
 
   function goToPages(Link) {
@@ -12,11 +13,11 @@ function Header() {
   }
   return (
     <div>
-      <header className="header">
+      <header className="headerUs">
         <div className="menu">
           <img src={logo} alt="" />
           <ul>
-            <li onClick={() => goToPages("/korea-title")}>Авто из Кореи</li>
+            <li onClick={() => goToPages("/")}>Авто из Кореии</li>
             <li onClick={() => goToPages("/")}>Авто из Казахстана</li>
             <li onClick={() => goToPages("/")}>Авто из ОАЭ</li>
             <li onClick={() => goToPages("/")}>Авто из Китая</li>
@@ -39,4 +40,4 @@ function Header() {
   );
 }
 
-export default Header;
+export default HeaderUs;

@@ -1,0 +1,48 @@
+.question {
+    width: 1440px;
+    margin: 0 auto;
+    // height: 600px;
+
+    h1 {
+        color: rgb(0, 0, 0);
+        font-family: Montserrat;
+        font-size: 50px;
+        font-weight: 700;
+        line-height: 69px;
+        letter-spacing: 0%;
+        text-align: left;
+    }
+    .ques {
+        width: 1200px;
+        margin: 100px auto;
+        div {
+            display: flex;
+            gap: 50px;
+
+            .text {
+                color: rgb(0, 0, 0);
+                font-family: Montserrat;
+                font-size: 30px;
+                font-weight: 500;
+                line-height: 37px;
+                letter-spacing: 0%;
+                text-align: left;
+                margin-top: 45px;
+            }
+
+            .line {
+                color: red;
+            }
+            input {
+                width: 260px;
+                height: 60px;
+                margin-top: 55px;
+                background: red;
+
+            }
+        }
+        p {
+            margin-left: 70px;
+        }
+    }
+}

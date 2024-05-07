@@ -1,10 +1,18 @@
 import React from "react";
 import "./About.css";
+import { Link, useNavigate } from "react-router-dom";
+
+
 function About() {
+  const navigate = useNavigate();
+
+  function goToPages(Link) {
+    navigate(Link);
+  }
   return (
     <div className="section-container">
       <div className="Section-About">
-        <p className="Glav">Главная → Контакты</p>
+        <p className="Glav" onClick={() => goToPages("/")}>Главная → Контакты</p>
         <div className="Ocom">
           <h1>О компании</h1>
           <h2>EncarRUS Российская динамично развивающаяся компания</h2>
